@@ -17,6 +17,18 @@
       border-radius: 10px;
       margin-bottom: 20px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+    .book img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+      margin-left: 20px;
+    }
+    .book-info {
+      flex: 1;
     }
     h1 {
       color: #2c3e50;
@@ -43,11 +55,14 @@
   <h1>📚 مكتبة Bookiza</h1>
 
   <div class="book">
-    <h2>الخُنّس</h2>
-    <p><strong>الكاتب:</strong> صلاح الدين تجيني (Tedjini Salah Edin)</p>
-    <p><strong>الوصف:</strong> رواية غامضة وقوية... (يمكنك تغيير هذا النص لاحقًا)</p>
-    <a href="#" class="btn">📖 قراءة الآن</a>
-    <a href="#" class="btn">📥 تحميل PDF</a>
+    <img src="غلاف الخنس.jpg" alt="غلاف الخنس">
+    <div class="book-info">
+      <h2>الخُنّس</h2>
+      <p><strong>الكاتب:</strong> صلاح الدين تجيني (Tedjini Salah Edin)</p>
+      <p><strong>الوصف:</strong> رواية غامضة وقوية... مليئة بالأحداث والصراعات النفسية.</p>
+      <a href="الخُنّس نسخة الكترونية.pdf" class="btn" target="_blank">📖 قراءة الآن</a>
+      <a href="الخُنّس نسخة الكترونية.pdf" class="btn" download>📥 تحميل PDF</a>
+    </div>
   </div>
 
 </body>
